@@ -1,0 +1,15 @@
+.fa-heart {
+  font-size: 26px;
+  height: 26px;
+  margin-right: 10px;
+  cursor: pointer;
+  &:hover {
+    animation: 3s ease-in-out;
+    opacity: 0.9;
+    background: #b35cdc;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+}
+

@@ -6,34 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Commandez votre repas en ligne dans les restaurants gastronomiques à Paris.">
     <title>Ohmyfood</title>
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <!--google Fonts-->
+    <link rel="stylesheet" href="public/css/normalize.css" />
+    <link rel="stylesheet" href="public/css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Shrikhand&display=swap" rel="stylesheet">
-   
     <script
       src="https://kit.fontawesome.com/6b43840417.js"
       crossorigin="anonymous"
     ></script>
-    
+</head>
+<body>
     <div id="container" class="container"> 
         <header class="header">
-            <h1>Ohmyfood!</h1>
             <img class="heading__logo" src="public/images/logo/ohmyfood.png" alt="ohmyfood logo">
         </header>
-    
         <main>
             <section class="position">
                 <i class="position__icon fas fa-map-marker-alt"></i>
-                <p class="position__text">Paris, Bellville</p>
+                <p class="position__text">Paris, Belleville</p>
             </section>
         
             <section class="introduction">
                 <h2>Réservez le menu qui vous convient</h2>
                 <p class="introduction__text">Découvrez des restaurants d'exception, sélectionnés par nos soins.</p>
-                <a href="#restaurants" class="introduction__lnk">Explorer nos restaurants</a>
+                <a href="#restaurants" class="introduction__button">Explorer nos restaurants</a>
             </section>
     
             <section class="howitworks">
@@ -43,7 +40,6 @@
                         <div class="howitworks-card__index">1</div>
                         <i class="howitworks-card__icon fas fa-mobile-alt"></i>
                         <p class="howitworks-card__text">Choisissez un restaurant</p>
-    
                     </div>
     
                     <div class="howitworks-card">
@@ -93,7 +89,7 @@
             
                     <article class="restaurant-card">
                         <a href="pages/a-la-francaise.html">
-                            <img class="restaurant-card__image" src="./public/images/restaurants/menu-a-la_francaise.jpg" alt="A la française"/>
+                            <img class="restaurant-card__image" src="./public/images/restaurants/menu-a-la-francaise.jpg" alt="A la française"/>
                             <div class="restaurant-card__body">
                                 <div class="restaurant-card__text">
                                     <h4>À la française</h4>
@@ -118,29 +114,22 @@
                     </article>
                 </div>
             </section>
-        </main>
-    
+        </main> 
         <footer class="footer">
             <div class="footer__title">ohmyfood</div>
             <nav class="footer__nav">
                 <a href=#>
                     <i class="footer__icon fas fa-utensils"></i>
                     <span>Proposer un restaurant</span>
-                </a>
-    
+                </a>   
                 <a href=#>
                     <i class="footer__icon fas fa-hands-helping"></i>
                     <span>Devenir partenaire</span>
                 </a>
-    
                 <a href=#>Mentions légales</a>
                 <a href="mailto:contact@ohmyfood.com">Contact</a> 
             </nav> 
         </footer>
-        </div>
-
-</head>
-<body>
-    
+    </div>
 </body>
 </html>

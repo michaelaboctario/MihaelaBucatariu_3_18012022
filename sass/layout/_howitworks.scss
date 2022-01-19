@@ -1,0 +1,58 @@
+.howitworks {
+    padding: 60px 20px;
+
+    &__list {
+        padding: 20px;
+        display:flex;
+        justify-content: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        text-align: left;
+        }
+}
+
+.howitworks-card {
+    position: relative;
+    display:flex;
+    align-items: center;
+    background-color: $background-color-layout;
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: $shadow-color-card;
+    cursor: pointer;
+    &:hover {
+        background-color: $background-color-action-icon-hover;
+        .howitworks-card__icon {
+            color: $color-primary;
+        }
+    }
+
+    &__index {
+        position: absolute;
+        left:-8px;
+        border-radius: 200px;
+        background-color: $color-primary;
+        color: #ffff;
+        padding: 6px 10px;
+    }
+
+    &__icon {
+        color: $color-action-icon;
+        text-align: center;
+        width: 20px;
+        font-size: 20px;
+    }
+
+    &__text {
+        margin-left: 30px;
+        font-weight: 600;
+    }
+}
+
+
+
