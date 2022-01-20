@@ -4,7 +4,9 @@ body {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -62,25 +64,27 @@ img {
 .position__text {
   border: none;
   font-weight: 800;
-  color: #4D4D4DCC;
+  color: #4d4d4dcc;
   width: 130px;
 }
 
-.fa-heart {
-  font-size: 26px;
-  height: 26px;
+.restaurant-card__heart {
+  font-size: 20px;
+  height: 20px;
   margin-right: 10px;
   cursor: pointer;
-}
-.fa-heart:hover {
-  animation: compute 3s ease-in-out;
-  opacity: 0.9;
-  /*   background:linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-    background:-webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da); */
-  background: #b35cdc;
+  background: linear-gradient(180deg, white 0%, #ff79da 30%, #9356dc);
+  background-size: 100% 200%;
   -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-position-y: 0;
+  transition: all 0.1s ease;
+}
+.restaurant-card__heart:hover {
+  color: transparent;
   -webkit-text-fill-color: transparent;
-  font-weight: bold;
+  font-weight: 900;
+  background-position-y: -3rem;
 }
 
 .header {
@@ -101,7 +105,7 @@ img {
   background-color: #f6f6f6cb;
 }
 .introduction__text {
-  color: #4D4D4DCC;
+  color: #4d4d4dcc;
   text-align: center;
   font-size: 18px;
   font-weight: 400;
@@ -115,7 +119,7 @@ img {
 .introduction__button {
   border-radius: 200px;
   padding: 17px 28px;
-  background: linear-gradient(175deg, #FF79DA, #9356DC);
+  background: linear-gradient(175deg, #ff79da, #9356dc);
   color: #f6f6f6cb;
   filter: brightness(1);
   transition: all 0.25s;
@@ -156,18 +160,18 @@ img {
   background-color: #f7c0e7;
 }
 .howitworks-card:hover .howitworks-card__icon {
-  color: #9356DC;
+  color: #9356dc;
 }
 .howitworks-card__index {
   position: absolute;
   left: -8px;
   border-radius: 200px;
-  background-color: #9356DC;
+  background-color: #9356dc;
   color: #ffff;
   padding: 6px 10px;
 }
 .howitworks-card__icon {
-  color: #4D4D4DCC;
+  color: #4d4d4dcc;
   text-align: center;
   width: 20px;
   font-size: 20px;
@@ -217,7 +221,7 @@ img {
 .restaurant-card__tooltip {
   color: #008766;
   padding: 12px 16px;
-  background-color: #99E2D0;
+  background-color: #99e2d0;
   position: absolute;
   top: 12px;
   right: 12px;

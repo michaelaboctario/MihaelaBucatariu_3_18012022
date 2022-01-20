@@ -1,39 +1,39 @@
 .footer {
-    background-color: $background-color-footer;
-    color: $color-footer-text;
-    padding: 40px 20px;
-    display:flex;
-    justify-content: space-between;
+  background-color: $background-color-footer;
+  color: $color-footer-text;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+  &__title {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: $font-header;
+  }
+
+  &__icon {
+    text-align: center;
+    font-size: 12px;
+    width: 12px;
+  }
+
+  &__text {
+    font-weight: 400;
+  }
+
+  &__nav {
+    margin-left: 100px;
+    display: flex;
     flex-direction: column;
-
-    &__title {
-        font-size: 20px;
-        font-weight: 400;
-        font-family: $font-header;
-    }
-
-    &__icon {
-        text-align: center;
-        font-size: 12px;
-        width: 12px;
-    }
-
-    &__text {
-        font-weight: 400;
-    }
-
-    &__nav {
-        margin-left: 100px;
-        display:flex;
-        flex-direction: column;
-        margin-left: 0px;
-        margin-top: 20px;
-    }
-    a {
-        list-style: none;
-        display:flex;
-        padding: 12px 0;
-        align-items: center;
-        gap: 10px;
-    }
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  a {
+    list-style: none;
+    display: flex;
+    padding: 12px 0;
+    align-items: center;
+    gap: 10px;
+  }
 }

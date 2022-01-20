@@ -1,33 +1,33 @@
 .introduction {
-    @include center-box;
-    padding: 50px 20px;
-    flex-direction: column;
-    background-color: $background-color-layout;
-    
-    &__text {
-        color: $color-text;
-        text-align: center;
-        font-size: 18px;
-        font-weight: 400;
-        margin-bottom: 30px;
-    }
+  @include center-box;
+  padding: 50px 20px;
+  flex-direction: column;
+  background-color: $background-color-layout;
 
-    h2 {
-        text-align: center;
-        margin-bottom: 12px;
-    }
+  &__text {
+    color: $color-text;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 12px;
+  }
 }
 
 .introduction__button {
-    border-radius: 200px;
-    padding: 17px 28px;
-    background: linear-gradient(175deg, $color-secondary, $color-primary);
-    color: $background-color-layout;
-    filter: brightness(1);
-    transition: all 0.25s;
-    box-shadow: $shadow-color-header;
-    &:hover {
-      filter: brightness(1.2);
-      box-shadow: $shadow-button-hover;
-    }
+  border-radius: 200px;
+  padding: 17px 28px;
+  background: linear-gradient(175deg, $color-secondary, $color-primary);
+  color: $background-color-layout;
+  filter: brightness(1);
+  transition: all 0.25s;
+  box-shadow: $shadow-color-header;
+  &:hover {
+    filter: brightness(1.2);
+    box-shadow: $shadow-button-hover;
   }
+}

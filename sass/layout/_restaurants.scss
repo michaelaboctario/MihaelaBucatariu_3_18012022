@@ -1,57 +1,57 @@
 .restaurants {
-    padding: 50px 20px;
-    background-color: $background-color-layout;
-    
-    h2 {
-        margin-bottom: 30px;
-    }
+  padding: 50px 20px;
+  background-color: $background-color-layout;
 
-    &__list {
-        display: flex;
-        justify-content: space-between;
-        gap: 30px;
-        display:flex;
-        flex-direction: column;
-    }
+  h2 {
+    margin-bottom: 30px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .restaurant-card {
-    position: relative;
-    width: 25%;
-    background-color: $background-color-layout;
-    border-radius: 20px;
-    box-shadow: $shadow-color-card;
+  position: relative;
+  width: 25%;
+  background-color: $background-color-layout;
+  border-radius: 20px;
+  box-shadow: $shadow-color-card;
+  width: 100%;
+
+  &__image {
+    height: 180px;
     width: 100%;
+    border-radius: 20px 20px 0px 0px;
+  }
 
-    &__image {
-        height: 180px;
-        width: 100%;
-        border-radius: 20px 20px 0px 0px;
+  &__body {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    h4 {
+      margin-bottom: 10px;
     }
+  }
 
-    &__body {
-        position: relative;
-        padding: 20px;
-        display:flex;
-        justify-content: space-between;
-        h4 {
-            margin-bottom: 10px;
-        }
-    }
+  &__tooltip {
+    color: $color-tooltip;
+    padding: 12px 16px;
+    background-color: $color-tertiary;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 16px;
+    font-weight: bold;
+  }
 
-    &__tooltip {
-        color:$color-tooltip;
-        padding: 12px 16px;
-        background-color: $color-tertiary;
-        position: absolute;
-        top: 12px;
-        right: 12px;
-        font-size: 16px;
-        font-weight: bold;
-    }
-
-    &__position {
-        font-size: 18px;
-        font-weight: 400;
-    }
+  &__position {
+    font-size: 18px;
+    font-weight: 400;
+  }
 }
