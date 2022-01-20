@@ -1,14 +1,24 @@
-.fa-heart {
-  font-size: 26px;
-  height: 26px;
+.restaurant-card__heart {
+  font-size: 20px;
+  height: 20px;
   margin-right: 10px;
   cursor: pointer;
+  background: linear-gradient(
+    180deg,
+    white 0%,
+    $color-secondary 30%,
+    $color-primary
+  );
+  background-size: 100% 200%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-position-y: 0;
+  transition: all 0.1s ease;
+
   &:hover {
-    animation: 3s ease-in-out;
-    opacity: 0.9;
-    background: #b35cdc;
-    -webkit-background-clip: text;
+    color: transparent;
     -webkit-text-fill-color: transparent;
-    font-weight: bold;
+    font-weight: 900;
+    background-position-y: -3rem;
   }
 }
