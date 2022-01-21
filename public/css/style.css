@@ -45,6 +45,13 @@ img {
   object-fit: cover;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .heading__logo {
   max-width: 260px;
   width: 70%;
@@ -87,6 +94,29 @@ img {
   background-position-y: -3rem;
 }
 
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 16px solid #ff79da;
+  border-top: 16px solid #9356dc;
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .header {
   display: flex;
   justify-content: center;

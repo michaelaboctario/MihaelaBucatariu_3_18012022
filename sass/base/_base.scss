@@ -44,3 +44,8 @@ h4 {
 img {
   object-fit: cover;
 }
+
+.container {
+  @include center-box;
+  flex-direction: column;
+}
