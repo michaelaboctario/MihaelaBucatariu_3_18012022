@@ -1,0 +1,16 @@
+.header__link {
+    &__index {
+        width: 80%;
+        @include center-box;
+    }
+    __back {
+        width: 20%;
+        @include center-box;
+    }
+    & i {
+        font-size: 20px;
+        // position:absolute;
+        // left:20px;
+        // top:20px;
+    }
+}

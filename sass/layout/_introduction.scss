@@ -11,15 +11,18 @@
     font-weight: 400;
     margin-bottom: 30px;
   }
-
   h2 {
     text-align: center;
     margin-bottom: 12px;
   }
+  &__button {
+    @include gradient-button;
+  }
 }
 
+/*
 .introduction__button {
-  border-radius: 200px;
+  border-radius: 50px;
   padding: 17px 28px;
   background: linear-gradient(175deg, $color-secondary, $color-primary);
   color: $background-color-layout;
@@ -31,3 +34,4 @@
     box-shadow: $shadow-button-hover;
   }
 }
+*/
