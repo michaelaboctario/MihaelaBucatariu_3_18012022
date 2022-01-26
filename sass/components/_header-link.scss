@@ -3,14 +3,9 @@
         width: 80%;
         @include center-box;
     }
-    __back {
+    &__back {
         width: 20%;
+        font-size: 30px;
         @include center-box;
-    }
-    & i {
-        font-size: 20px;
-        // position:absolute;
-        // left:20px;
-        // top:20px;
     }
 }
