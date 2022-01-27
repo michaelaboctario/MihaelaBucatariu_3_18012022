@@ -1,11 +1,15 @@
-.header__link {
-    &__index {
-        width: 80%;
+.header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    &__home {
         @include center-box;
+        margin: 0 auto;
     }
     &__back {
-        width: 20%;
         font-size: 30px;
+        margin: 0 30px;
         @include center-box;
     }
 }

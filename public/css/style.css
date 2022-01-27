@@ -52,7 +52,7 @@ img {
   flex-direction: column;
 }
 
-.header__logo {
+.header-menu__logo {
   max-width: 260px;
   height: 90px;
   object-fit: contain;
@@ -167,15 +167,21 @@ img {
     transform: rotate(360deg);
   }
 }
-.header__link__index {
-  width: 80%;
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+.header-menu__home {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
-.header__link__back {
-  width: 20%;
+.header-menu__back {
   font-size: 30px;
+  margin: 0 30px;
   display: flex;
   justify-content: center;
   align-items: center;
