@@ -94,8 +94,8 @@ img {
 
 .button__gradient {
   border-radius: 50px;
-  padding: 17px 28px;
-  background: linear-gradient(175deg, #ff79da, #9356dc);
+  padding: 20px 30px;
+  background: linear-gradient(180deg, #ff79da, #9356dc);
   color: #f6f6f6cb;
   filter: brightness(1);
   transition: all 0.25s;
@@ -237,8 +237,8 @@ img {
 }
 .introduction__button {
   border-radius: 50px;
-  padding: 17px 28px;
-  background: linear-gradient(175deg, #ff79da, #9356dc);
+  padding: 20px 30px;
+  background: linear-gradient(180deg, #ff79da, #9356dc);
   color: #f6f6f6cb;
   filter: brightness(1);
   transition: all 0.25s;
@@ -366,8 +366,11 @@ img {
 }
 .menu__list {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: -40px;
-  padding: 40px 30px;
+  padding: 40px 30px 10px;
   border-radius: 40px 40px 0px 0px;
   background-color: #f6f6f6cb;
 }
@@ -375,17 +378,23 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 40px;
+  width: 100%;
 }
 .menu__list__title h2 {
   font-family: "Shrikhand", cursive;
   font-size: 28px;
   font-weight: 500;
 }
+.menu__button {
+  margin: 40px auto;
+}
 
 .list {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  width: 100%;
 }
 .list h3 {
   margin: 20px 0;
@@ -434,12 +443,65 @@ img {
   font-size: 18px;
   font-weight: bold;
   display: inline-block;
+  margin-right: 10px;
   margin-left: auto;
 }
 .menu-card__check {
-  visibility: hidden;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 20px 20px 0;
+  background-color: #99E2D0;
+  margin-right: -90px;
+  transition: margin-right 0.4s ease-out;
+}
+.menu-card__check__icon {
+  font-size: 16px;
+  padding: 2px;
+  border-radius: 50%;
+  border: 5px solid #ffff;
+  background-color: #ffff;
+  color: #99E2D0;
+}
+.menu-card:hover .menu-card__check {
+  margin-right: 0px;
+}
+.menu-card:hover .menu-card__check__icon {
+  animation: animate-icon 0.4s ease-in-out forwards;
 }
 
+@keyframes animate-check {
+  0% {
+    margin-right: -80px;
+  }
+  100% {
+    margin-right: 0px;
+  }
+  /*  20% {
+       transform: rotate(90deg);
+   }
+   30% {
+       transform: rotate(180deg);
+   }
+   100% {
+       transform: rotate(360deg);
+   } */
+}
+@keyframes animate-icon {
+  0% {
+    transform: rotate(0);
+  }
+  20% {
+    transform: rotate(90deg);
+  }
+  30% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .footer {
   background-color: #353535;
   color: #f6f6f6cb;

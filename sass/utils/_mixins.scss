@@ -6,8 +6,8 @@
 
 @mixin gradient-button {
   border-radius: 50px;
-  padding: 17px 28px;
-  background: linear-gradient(175deg, $color-secondary, $color-primary);
+  padding: 20px 30px;
+  background: linear-gradient(180deg, $color-secondary, $color-primary);
   color: $background-color-layout;
   filter: brightness(1);
   transition: all 0.25s;
