@@ -46,8 +46,13 @@
         align-items: center;
         justify-content: space-evenly;
     }
+    &__info {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        margin-right: 20px;
+    }
     &__price {
-        font-size: 18px;
         font-weight: bold;
         display: inline-block;
         margin-right: 10px;
