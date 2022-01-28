@@ -1,4 +1,5 @@
 .list {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -32,6 +33,8 @@
     box-shadow: $shadow-color-card;
     background-color: $background-color-menu-card;
     line-height: 1.8;
+    animation: fadecard-in 2400ms both;
+    //animation: fadecard-in 4s ease-in-out both;
     h4 {
         white-space: nowrap;
         text-overflow: ellipsis;
@@ -40,6 +43,7 @@
     &__body {
         padding: 10px 10px 10px 20px;
         width: 100%;
+        min-width: 240px;
     }
     &__text {
         display: flex;
@@ -82,8 +86,14 @@
             margin-right: 0px;
         }
         .menu-card__check__icon {
-            animation: animate-icon 0.4s ease-in-out forwards;
+            animation: animate-icon 0.4s ease forwards;
         }
+    }
+}
+
+@for $i from 1 through 10 {
+    .animation-index--#{$i} {
+        animation-delay: #{$i*800}ms;
     }
 }
 
@@ -101,3 +111,15 @@
         transform: rotate(360deg);
     }
 }
+
+@keyframes fadecard-in {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+  }
+
