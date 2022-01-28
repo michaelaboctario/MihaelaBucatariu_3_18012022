@@ -133,6 +133,7 @@ img {
   border-top: 16px solid #9356dc;
   animation: spin 1.2s ease-in forwards;
   animation-iteration-count: 6.2;
+  opacity: 0;
 }
 
 @keyframes fadein {
