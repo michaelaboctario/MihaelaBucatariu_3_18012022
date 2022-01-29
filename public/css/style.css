@@ -98,7 +98,7 @@ img {
   background: linear-gradient(180deg, #ff79da, #9356dc);
   color: #f2f2f2;
   filter: brightness(1);
-  transition: all 0.25s;
+  transition: all 0.3s;
   box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 .button__gradient:hover {
@@ -225,7 +225,7 @@ img {
   background: linear-gradient(180deg, #ff79da, #9356dc);
   color: #f2f2f2;
   filter: brightness(1);
-  transition: all 0.25s;
+  transition: all 0.3s;
   box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 .introduction__button:hover {
@@ -243,6 +243,13 @@ img {
   gap: 20px;
   flex-direction: column;
 }
+@media screen and (min-width: 769px) {
+  .howitworks__list {
+    flex-direction: row;
+    gap: 40px;
+    justify-content: space-evenly;
+  }
+}
 .howitworks h2 {
   text-align: center;
   margin-bottom: 30px;
@@ -258,6 +265,12 @@ img {
   border-radius: 20px;
   box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
+}
+@media screen and (min-width: 769px) {
+  .howitworks-card {
+    width: 24%;
+    justify-content: space-between;
+  }
 }
 .howitworks-card:hover {
   background-color: #f7c0e7;
@@ -301,6 +314,15 @@ img {
   justify-content: space-between;
   gap: 30px;
 }
+@media screen and (min-width: 769px) {
+  .restaurants__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: space-around;
+    padding: 0 40px;
+  }
+}
 
 .restaurant-card {
   position: relative;
@@ -308,6 +330,12 @@ img {
   border-radius: 20px;
   box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.15);
   width: 100%;
+}
+@media screen and (min-width: 769px) {
+  .restaurant-card {
+    width: 44%;
+    justify-content: space-around;
+  }
 }
 .restaurant-card__image {
   height: 180px;
@@ -381,6 +409,15 @@ img {
   gap: 30px;
   width: 100%;
 }
+@media screen and (min-width: 769px) {
+  .list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-around;
+    padding: 0 40px;
+  }
+}
 .list h3 {
   margin: 20px 0;
   position: relative;
@@ -398,6 +435,13 @@ img {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+@media screen and (min-width: 769px) {
+  .list-group {
+    width: 31%;
+    gap: 30px;
+    justify-content: flex-start;
+  }
 }
 
 .menu-card {
@@ -556,12 +600,25 @@ img {
   margin-left: 0px;
   margin-top: 20px;
 }
+@media screen and (min-width: 769px) {
+  .footer__nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-around;
+  }
+}
 .footer a {
   list-style: none;
   display: flex;
   padding: 12px 0;
   align-items: center;
   gap: 10px;
+}
+@media screen and (min-width: 769px) {
+  .footer a {
+    width: 22%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -7,6 +7,11 @@
     justify-content: center;
     gap: 20px;
     flex-direction: column;
+    @include media-desktop {    
+      flex-direction: row;
+      gap: 40px;
+      justify-content: space-evenly;
+   }  
   }
 
   h2 {
@@ -25,6 +30,10 @@
   border-radius: 20px;
   box-shadow: $shadow-color-card;
   cursor: pointer;
+  @include media-desktop {    
+    width: 24%;
+    justify-content: space-between;
+  }  
   &:hover {
     background-color: $background-color-action-icon-hover;
     .howitworks-card__icon {

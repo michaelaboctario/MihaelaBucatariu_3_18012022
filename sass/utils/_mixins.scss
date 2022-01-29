@@ -10,10 +10,17 @@
   background: linear-gradient(180deg, $color-secondary, $color-primary);
   color: $background-color-layout;
   filter: brightness(1);
-  transition: all 0.25s;
+  transition: all 0.3s;
   box-shadow: $shadow-color-header;
   &:hover {
     filter: brightness(1.2);
     box-shadow: $shadow-button-hover;
+  }
+}
+
+@mixin media-desktop {
+  @media screen and (min-width: map-get($breakpoints, mobile))
+  {
+    @content;
   }
 }
