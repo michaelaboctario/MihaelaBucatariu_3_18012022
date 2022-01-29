@@ -19,25 +19,25 @@ a {
 }
 
 h1 {
-  font-size: 25px;
+  font-size: 24px;
   font-family: "Shrikhand", cursive;
-  margin: 15px;
+  margin: 16px;
   font-weight: 500;
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: bold;
 }
 
 h3 {
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 900;
 }
 
@@ -96,7 +96,7 @@ img {
   border-radius: 50px;
   padding: 20px 30px;
   background: linear-gradient(180deg, #ff79da, #9356dc);
-  color: #f6f2f9;
+  color: #f2f2f2;
   filter: brightness(1);
   transition: all 0.25s;
   box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
@@ -113,14 +113,18 @@ img {
 }
 
 .loader-wrapper {
-  position: absolute;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  pointer-events: none;
   opacity: 1;
   display: flex;
   align-items: center;
-  top: 30%;
+  background-color: #f2f2f2;
   justify-content: center;
-  width: 100%;
-  height: 240px;
   animation: fadein 8s ease-in-out forwards;
   animation-direction: reverse;
 }
@@ -128,7 +132,7 @@ img {
 .loader {
   width: 240px;
   height: 240px;
-  border: 16px solid #f6f2f9;
+  border: 16px solid #f2f2f2;
   border-radius: 50%;
   border-top: 16px solid #9356dc;
   animation: spin 1.2s ease-in forwards;
@@ -202,7 +206,7 @@ img {
   align-items: center;
   padding: 50px 20px;
   flex-direction: column;
-  background-color: #f6f2f9;
+  background-color: #f2f2f2;
 }
 .introduction__text {
   color: #4d4d4dcc;
@@ -219,7 +223,7 @@ img {
   border-radius: 50px;
   padding: 20px 30px;
   background: linear-gradient(180deg, #ff79da, #9356dc);
-  color: #f6f2f9;
+  color: #f2f2f2;
   filter: brightness(1);
   transition: all 0.25s;
   box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
@@ -249,7 +253,7 @@ img {
   position: relative;
   display: flex;
   align-items: center;
-  background-color: #f6f2f9;
+  background-color: #f2f2f2;
   padding: 20px 40px;
   border-radius: 20px;
   box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.15);
@@ -286,7 +290,7 @@ img {
 
 .restaurants {
   padding: 50px 20px;
-  background-color: #f6f2f9;
+  background-color: #f2f2f2;
 }
 .restaurants h2 {
   margin-bottom: 30px;
@@ -300,7 +304,7 @@ img {
 
 .restaurant-card {
   position: relative;
-  background-color: #f6f2f9;
+  background-color: #f2f2f2;
   border-radius: 20px;
   box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.15);
   width: 100%;
@@ -352,7 +356,7 @@ img {
   margin-top: -40px;
   padding: 40px 30px 10px;
   border-radius: 40px 40px 0px 0px;
-  background-color: #f6f2f9;
+  background-color: #f2f2f2;
 }
 .menu__list__title {
   display: flex;
