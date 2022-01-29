@@ -247,7 +247,7 @@ img {
   .howitworks__list {
     flex-direction: row;
     gap: 40px;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
 }
 .howitworks h2 {
@@ -268,8 +268,8 @@ img {
 }
 @media screen and (min-width: 769px) {
   .howitworks-card {
-    width: 24%;
-    justify-content: space-between;
+    width: 29%;
+    padding: 30px 10px 30px 40px;
   }
 }
 .howitworks-card:hover {
@@ -438,7 +438,7 @@ img {
 }
 @media screen and (min-width: 769px) {
   .list-group {
-    width: 31%;
+    width: 30%;
     gap: 30px;
     justify-content: flex-start;
   }
@@ -465,10 +465,15 @@ img {
   width: 100%;
   min-width: 240px;
 }
+@media screen and (min-width: 769px) {
+  .menu-card__body {
+    padding: 20px 20px 20px 30px;
+  }
+}
 .menu-card__text {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 .menu-card__info {
   white-space: nowrap;

@@ -10,7 +10,7 @@
     @include media-desktop {    
       flex-direction: row;
       gap: 40px;
-      justify-content: space-evenly;
+      justify-content: space-around;
    }  
   }
 
@@ -31,8 +31,8 @@
   box-shadow: $shadow-color-card;
   cursor: pointer;
   @include media-desktop {    
-    width: 24%;
-    justify-content: space-between;
+    width: 29%;    
+    padding: 30px 10px 30px 40px;
   }  
   &:hover {
     background-color: $background-color-action-icon-hover;

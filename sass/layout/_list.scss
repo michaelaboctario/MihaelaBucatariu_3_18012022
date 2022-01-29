@@ -29,7 +29,7 @@
         flex-direction: column;
         gap: 20px;
         @include media-desktop {    
-            width: 31%;
+            width: 30%;
             gap: 30px;
             justify-content: flex-start;
         }
@@ -54,13 +54,17 @@
     }
     &__body {
         padding: 10px 10px 10px 20px;
+        //20px 20px 20px 30px
         width: 100%;
         min-width: 240px;
+        @include media-desktop {    
+            padding: 20px 20px 20px 30px;
+        }
     }
     &__text {
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: flex-start;
     }
     &__info {
         white-space: nowrap;
