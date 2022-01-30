@@ -49,12 +49,6 @@ img {
   flex-direction: column;
 }
 
-.header-menu__logo {
-  max-width: 260px;
-  height: 90px;
-  object-fit: contain;
-}
-
 .position {
   display: flex;
   justify-content: center;
@@ -188,6 +182,11 @@ img {
   width: 100%;
   box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
+.header__logo {
+  max-width: 260px;
+  height: 90px;
+  object-fit: contain;
+}
 
 .introduction {
   display: flex;
@@ -232,7 +231,7 @@ img {
   gap: 20px;
   flex-direction: column;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   .howitworks__list {
     flex-direction: row;
     gap: 40px;
@@ -255,7 +254,7 @@ img {
   box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   .howitworks-card {
     width: 29%;
     padding: 30px 10px 30px 40px;
@@ -303,7 +302,7 @@ img {
   justify-content: space-between;
   gap: 30px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   .restaurants__list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -320,7 +319,7 @@ img {
   box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.15);
   width: 100%;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   .restaurant-card {
     width: 44%;
     justify-content: space-around;
@@ -409,7 +408,7 @@ img {
   gap: 30px;
   width: 100%;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   .list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -436,7 +435,7 @@ img {
   flex-direction: column;
   gap: 20px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   .list-group {
     width: 30%;
     gap: 30px;
@@ -465,7 +464,7 @@ img {
   width: 100%;
   min-width: 240px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   .menu-card__body {
     padding: 20px 20px 20px 30px;
   }
@@ -605,7 +604,7 @@ img {
   margin-left: 0px;
   margin-top: 20px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   .footer__nav {
     flex-direction: row;
     flex-wrap: wrap;
@@ -620,7 +619,7 @@ img {
   align-items: center;
   gap: 10px;
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   .footer a {
     width: 22%;
   }

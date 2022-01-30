@@ -5,4 +5,9 @@
   //position: relative;
   width: 100%;
   box-shadow: $shadow-color-header;
+  &__logo {
+    max-width: 260px;
+    height: 90px;
+    object-fit: contain;
+  }
 }
