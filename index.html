@@ -29,20 +29,21 @@
      </div>
     <div id="container" class="container container-wrapper-animate">
       <header class="header">
-        <a href="index.html" class="header__link__index">
+        <h1>
+          <a href="index.html" class="header__link__index">
           <img
-            class="header__logo"
-            src="public/images/logo/ohmyfood.png"
-            alt="ohmyfood logo"
-          />
-        </a>   
+             class="header__logo"
+             src="public/images/logo/ohmyfood.png"
+             alt="ohmyfood logo"
+           />
+         </a>   
+        </h1>
       </header>
       <main class="home">
-        <section class="position">
-          <i class="position__icon fas fa-map-marker-alt"></i>
-          <p class="position__text">Paris, Belleville</p>
-        </section>
-
+        <form method="post" class="position">
+            <i class="position__icon fas fa-map-marker-alt"></i>
+            <input type="search" name="location" class="position__text" placeholder="Paris, Belleville" disabled/>
+        </form>
         <section class="introduction">
           <h2>Réservez le menu qui vous convient</h2>
           <p class="introduction__text">
