@@ -19,7 +19,11 @@ a {
 }
 
 h1 {
-  margin: 0;
+  font-family: "Shrikhand", cursive;
+  margin: 10px;
+  font-weight: 500;
+  text-align: center;
+  width: 100%;
 }
 
 h2 {
@@ -163,17 +167,11 @@ img {
   width: 100%;
 }
 .header-menu__home {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 0 auto;
 }
 .header-menu__back {
   font-size: 24px;
   margin-left: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .header {
@@ -182,11 +180,6 @@ img {
   align-items: center;
   width: 100%;
   box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
-}
-.header__logo {
-  max-width: 180px;
-  height: 40px;
-  object-fit: contain;
 }
 
 .introduction {
