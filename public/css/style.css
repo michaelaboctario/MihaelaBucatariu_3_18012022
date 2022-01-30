@@ -90,20 +90,11 @@ img {
   background-position-y: -5rem;
 }
 
+/*
 .button__gradient {
-  border-radius: 50px;
-  padding: 20px 30px;
-  background: linear-gradient(180deg, #ff79da, #9356dc);
-  color: #f2f2f2;
-  filter: brightness(1);
-  transition: all 0.3s;
-  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    @include gradient-button;
 }
-.button__gradient:hover {
-  filter: brightness(1.2);
-  box-shadow: 2px 8px 8px 0 rgba(0, 0, 0, 0.3);
-}
-
+*/
 .container-wrapper-animate {
   position: relative;
   opacity: 0;
@@ -241,7 +232,7 @@ img {
   gap: 20px;
   flex-direction: column;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .howitworks__list {
     flex-direction: row;
     gap: 40px;
@@ -264,7 +255,7 @@ img {
   box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .howitworks-card {
     width: 29%;
     padding: 30px 10px 30px 40px;
@@ -312,7 +303,7 @@ img {
   justify-content: space-between;
   gap: 30px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .restaurants__list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -329,7 +320,7 @@ img {
   box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.15);
   width: 100%;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .restaurant-card {
     width: 44%;
     justify-content: space-around;
@@ -398,6 +389,17 @@ img {
 }
 .menu__button {
   margin: 40px auto;
+  border-radius: 50px;
+  padding: 20px 30px;
+  background: linear-gradient(180deg, #ff79da, #9356dc);
+  color: #f2f2f2;
+  filter: brightness(1);
+  transition: all 0.3s;
+  box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.menu__button:hover {
+  filter: brightness(1.2);
+  box-shadow: 2px 8px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
 .list {
@@ -407,7 +409,7 @@ img {
   gap: 30px;
   width: 100%;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -434,7 +436,7 @@ img {
   flex-direction: column;
   gap: 20px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .list-group {
     width: 30%;
     gap: 30px;
@@ -463,7 +465,7 @@ img {
   width: 100%;
   min-width: 240px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .menu-card__body {
     padding: 20px 20px 20px 30px;
   }
@@ -603,7 +605,7 @@ img {
   margin-left: 0px;
   margin-top: 20px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .footer__nav {
     flex-direction: row;
     flex-wrap: wrap;
@@ -618,7 +620,7 @@ img {
   align-items: center;
   gap: 10px;
 }
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   .footer a {
     width: 22%;
   }

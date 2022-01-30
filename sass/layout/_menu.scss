@@ -31,5 +31,7 @@
     }
     &__button {
         margin: 40px auto;
+        @include gradient-button;
+
     }
 }
