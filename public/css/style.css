@@ -674,7 +674,7 @@ img {
   border-radius: 0 20px 20px 0;
   background-color: #99E2D0;
   margin-right: -90px;
-  transition: margin-right 0.4s ease-out;
+  transition: margin-right 0.1s ease-out;
 }
 .menu-card__check__icon {
   font-size: 16px;
@@ -688,7 +688,7 @@ img {
   margin-right: 0px;
 }
 .menu-card:hover .menu-card__check__icon {
-  animation: animate-icon 0.4s ease forwards;
+  animation: animate-icon 0.3s ease both;
 }
 
 @keyframes animate-icon {
