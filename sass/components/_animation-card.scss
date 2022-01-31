@@ -2,5 +2,17 @@
     .animation-index--#{$i} {
         animation: fadecard-in 2400ms both;
         animation-delay: #{$i*800}ms;
+        @include media-desktop {    
+            animation: none;  
+          }
+    }
+}
+
+@for $i from 1 through 5 {
+    .animation-row--#{$i} {
+        @include media-desktop {    
+            animation: fadecard-in 2400ms both;
+            animation-delay: #{$i*800}ms; 
+        }
     }
 }

@@ -200,65 +200,165 @@ img {
   animation: fadecard-in 2400ms both;
   animation-delay: 800ms;
 }
+@media screen and (min-width: 992px) {
+  .animation-index--1 {
+    animation: none;
+  }
+}
 
 .animation-index--2 {
   animation: fadecard-in 2400ms both;
   animation-delay: 1600ms;
+}
+@media screen and (min-width: 992px) {
+  .animation-index--2 {
+    animation: none;
+  }
 }
 
 .animation-index--3 {
   animation: fadecard-in 2400ms both;
   animation-delay: 2400ms;
 }
+@media screen and (min-width: 992px) {
+  .animation-index--3 {
+    animation: none;
+  }
+}
 
 .animation-index--4 {
   animation: fadecard-in 2400ms both;
   animation-delay: 3200ms;
+}
+@media screen and (min-width: 992px) {
+  .animation-index--4 {
+    animation: none;
+  }
 }
 
 .animation-index--5 {
   animation: fadecard-in 2400ms both;
   animation-delay: 4000ms;
 }
+@media screen and (min-width: 992px) {
+  .animation-index--5 {
+    animation: none;
+  }
+}
 
 .animation-index--6 {
   animation: fadecard-in 2400ms both;
   animation-delay: 4800ms;
+}
+@media screen and (min-width: 992px) {
+  .animation-index--6 {
+    animation: none;
+  }
 }
 
 .animation-index--7 {
   animation: fadecard-in 2400ms both;
   animation-delay: 5600ms;
 }
+@media screen and (min-width: 992px) {
+  .animation-index--7 {
+    animation: none;
+  }
+}
 
 .animation-index--8 {
   animation: fadecard-in 2400ms both;
   animation-delay: 6400ms;
+}
+@media screen and (min-width: 992px) {
+  .animation-index--8 {
+    animation: none;
+  }
 }
 
 .animation-index--9 {
   animation: fadecard-in 2400ms both;
   animation-delay: 7200ms;
 }
+@media screen and (min-width: 992px) {
+  .animation-index--9 {
+    animation: none;
+  }
+}
 
 .animation-index--10 {
   animation: fadecard-in 2400ms both;
   animation-delay: 8000ms;
+}
+@media screen and (min-width: 992px) {
+  .animation-index--10 {
+    animation: none;
+  }
 }
 
 .animation-index--11 {
   animation: fadecard-in 2400ms both;
   animation-delay: 8800ms;
 }
+@media screen and (min-width: 992px) {
+  .animation-index--11 {
+    animation: none;
+  }
+}
 
 .animation-index--12 {
   animation: fadecard-in 2400ms both;
   animation-delay: 9600ms;
 }
+@media screen and (min-width: 992px) {
+  .animation-index--12 {
+    animation: none;
+  }
+}
 
 .animation-index--13 {
   animation: fadecard-in 2400ms both;
   animation-delay: 10400ms;
+}
+@media screen and (min-width: 992px) {
+  .animation-index--13 {
+    animation: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .animation-row--1 {
+    animation: fadecard-in 2400ms both;
+    animation-delay: 800ms;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .animation-row--2 {
+    animation: fadecard-in 2400ms both;
+    animation-delay: 1600ms;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .animation-row--3 {
+    animation: fadecard-in 2400ms both;
+    animation-delay: 2400ms;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .animation-row--4 {
+    animation: fadecard-in 2400ms both;
+    animation-delay: 3200ms;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .animation-row--5 {
+    animation: fadecard-in 2400ms both;
+    animation-delay: 4000ms;
+  }
 }
 
 .header {
@@ -589,56 +689,6 @@ img {
 }
 .menu-card:hover .menu-card__check__icon {
   animation: animate-icon 0.4s ease forwards;
-}
-
-.animation-index--1 {
-  animation: fadecard-in 2400ms both;
-  animation-delay: 800ms;
-}
-
-.animation-index--2 {
-  animation: fadecard-in 2400ms both;
-  animation-delay: 1600ms;
-}
-
-.animation-index--3 {
-  animation: fadecard-in 2400ms both;
-  animation-delay: 2400ms;
-}
-
-.animation-index--4 {
-  animation: fadecard-in 2400ms both;
-  animation-delay: 3200ms;
-}
-
-.animation-index--5 {
-  animation: fadecard-in 2400ms both;
-  animation-delay: 4000ms;
-}
-
-.animation-index--6 {
-  animation: fadecard-in 2400ms both;
-  animation-delay: 4800ms;
-}
-
-.animation-index--7 {
-  animation: fadecard-in 2400ms both;
-  animation-delay: 5600ms;
-}
-
-.animation-index--8 {
-  animation: fadecard-in 2400ms both;
-  animation-delay: 6400ms;
-}
-
-.animation-index--9 {
-  animation: fadecard-in 2400ms both;
-  animation-delay: 7200ms;
-}
-
-.animation-index--10 {
-  animation: fadecard-in 2400ms both;
-  animation-delay: 8000ms;
 }
 
 @keyframes animate-icon {
