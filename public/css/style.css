@@ -80,8 +80,30 @@ img {
   -moz-background-clip: text;
   background-position-y: 0;
   transition: all 0.1s ease-in-out;
+  position: absolute;
+  top: 200px;
+  right: 20px;
 }
 .restaurant-card__heart:hover {
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  background-position-y: -5rem;
+}
+
+.restaurant-title__heart {
+  font-size: 30px;
+  height: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+  background: linear-gradient(180deg, white 0%, #9356dc 10%, #ff79da 20%, #ff79da 80%);
+  background-size: 100% 200%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-position-y: 0;
+  transition: all 0.1s ease-in-out;
+}
+.restaurant-title__heart:hover {
   color: transparent;
   -webkit-text-fill-color: transparent;
   font-weight: 900;
