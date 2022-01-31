@@ -1,0 +1,6 @@
+@for $i from 1 through 13 {
+    .animation-index--#{$i} {
+        animation: fadecard-in 2400ms both;
+        animation-delay: #{$i*800}ms;
+    }
+}

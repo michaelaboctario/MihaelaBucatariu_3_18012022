@@ -45,7 +45,7 @@
     box-shadow: $shadow-color-card;
     background-color: $background-color-menu-card;
     line-height: 1.8;
-    animation: fadecard-in 2400ms both;
+    //animation: fadecard-in 2400ms both;
     //animation: fadecard-in 4s ease-in-out both;
     h4 {
         white-space: nowrap;
@@ -108,6 +108,7 @@
 
 @for $i from 1 through 10 {
     .animation-index--#{$i} {
+        animation: fadecard-in 2400ms both;
         animation-delay: #{$i*800}ms;
     }
 }
