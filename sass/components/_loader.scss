@@ -1,6 +1,5 @@
 .container-wrapper-animate {
   position: relative;
-  //opacity: 1;
   opacity: 0;
   animation: fadein 6s ease-in-out forwards;
 }
@@ -18,7 +17,6 @@
   align-items: center;
   background-color: $background-color-layout;
   justify-content: center;
-  //animation: fadein 8s ease-in-out forwards;
   animation: fadein 8s ease-in-out forwards;
   animation-direction: reverse;
 }
@@ -29,8 +27,6 @@
   border: 16px solid $background-color-layout;
   border-radius: 50%;
   border-top: 16px solid $color-primary;
-  //animation: spin 1.2s ease-in forwards;
-  //animation-iteration-count: 6.2;
   animation: spin 1.2s ease-in forwards;
   animation-iteration-count: 6.2;
   opacity: 0;

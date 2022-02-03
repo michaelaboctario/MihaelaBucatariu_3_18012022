@@ -23,16 +23,8 @@
   height: 30px;
   margin-right: 10px;
   cursor: pointer;
-  //position: absolute;
-  //top: 210px;
-  //right: 20px;
-  background: linear-gradient(
-    180deg,
-    white 0%,
-    $color-primary 10%,
-    $color-secondary 20%,
-    $color-secondary 80%
-  );
+  background: linear-gradient(180deg, $background-color-action-icon-hover 30%, $color-secondary 50%, $color-primary 80%);
+
   background-size: 100% 200%;
   -webkit-background-clip: text;
   -moz-background-clip: text;

@@ -74,7 +74,7 @@ img {
   height: 30px;
   margin-right: 10px;
   cursor: pointer;
-  background: linear-gradient(180deg, white 0%, #9356dc 10%, #ff79da 20%, #ff79da 80%);
+  background: linear-gradient(180deg, #efe9f7 30%, #ff79da 50%, #9356dc 80%);
   background-size: 100% 200%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -96,7 +96,7 @@ img {
   height: 30px;
   margin-right: 10px;
   cursor: pointer;
-  background: linear-gradient(180deg, white 0%, #9356dc 10%, #ff79da 20%, #ff79da 80%);
+  background: linear-gradient(180deg, #efe9f7 30%, #ff79da 50%, #9356dc 80%);
   background-size: 100% 200%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -110,11 +110,6 @@ img {
   background-position-y: -5rem;
 }
 
-/*
-.button__gradient {
-    @include gradient-button;
-}
-*/
 .container-wrapper-animate {
   position: relative;
   opacity: 0;
@@ -442,7 +437,7 @@ img {
   }
 }
 .howitworks-card:hover {
-  background-color: #f7c0e7;
+  background-color: #efe9f7;
 }
 .howitworks-card:hover .howitworks-card__icon {
   color: #9356dc;
