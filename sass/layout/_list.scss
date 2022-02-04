@@ -7,9 +7,9 @@
     @include media-desktop {    
         flex-direction: row;  
         flex-wrap: wrap;
-        gap: 40px;
+        gap: 20px;
         justify-content: space-around;
-        padding: 0 40px;
+        padding: 0 10px;
     }
     h3 {
         margin: 20px 0;
@@ -29,7 +29,7 @@
         flex-direction: column;
         gap: 20px;
         @include media-desktop {    
-            width: 30%;
+            width: 31.6%;
             gap: 30px;
             justify-content: flex-start;
         }
@@ -41,24 +41,21 @@
     flex-direction: row;
     overflow: hidden;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 18px;
     box-shadow: $shadow-color-card;
     background-color: $background-color-menu-card;
     line-height: 1.8;
-    //animation: fadecard-in 2400ms both;
-    //animation: fadecard-in 4s ease-in-out both;
     h4 {
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
     }
     &__body {
-        padding: 10px 10px 10px 20px;
-        //20px 20px 20px 30px
+        padding: 10px;
         width: 100%;
         min-width: 240px;
         @include media-desktop {    
-            padding: 20px 20px 20px 30px;
+            padding: 10px 14px;
         }
     }
     &__text {

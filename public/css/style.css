@@ -546,7 +546,7 @@ img {
   flex-direction: column;
   align-items: center;
   margin-top: -40px;
-  padding: 40px 30px 10px;
+  padding: 30px 12px 10px;
   border-radius: 40px 40px 0px 0px;
   background-color: #f2f2f2;
 }
@@ -556,6 +556,12 @@ img {
   justify-content: space-between;
   gap: 20px;
   width: 100%;
+  padding: 0 10px 0 0;
+}
+@media screen and (min-width: 992px) {
+  .menu__list__title {
+    padding: 0 10px;
+  }
 }
 .menu__list__title h2 {
   font-family: "Shrikhand", cursive;
@@ -588,9 +594,9 @@ img {
   .list {
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 20px;
     justify-content: space-around;
-    padding: 0 40px;
+    padding: 0 10px;
   }
 }
 .list h3 {
@@ -613,7 +619,7 @@ img {
 }
 @media screen and (min-width: 992px) {
   .list-group {
-    width: 30%;
+    width: 31.6%;
     gap: 30px;
     justify-content: flex-start;
   }
@@ -624,7 +630,7 @@ img {
   flex-direction: row;
   overflow: hidden;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 18px;
   box-shadow: 1px 4px 8px 0 rgba(0, 0, 0, 0.15);
   background-color: #ffff;
   line-height: 1.8;
@@ -635,13 +641,13 @@ img {
   overflow: hidden;
 }
 .menu-card__body {
-  padding: 10px 10px 10px 20px;
+  padding: 10px;
   width: 100%;
   min-width: 240px;
 }
 @media screen and (min-width: 992px) {
   .menu-card__body {
-    padding: 20px 20px 20px 30px;
+    padding: 10px 14px;
   }
 }
 .menu-card__text {
